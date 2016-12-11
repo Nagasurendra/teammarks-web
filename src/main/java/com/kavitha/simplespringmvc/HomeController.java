@@ -12,8 +12,8 @@ public class HomeController {
 		@RequestMapping(value = { "/", "/welcome**" }, method = RequestMethod.GET)
 		public ModelAndView welcomePage() {
 			ModelAndView model = new ModelAndView();
-			model.addObject("title", "Welcome");
-			model.setViewName("hello");
+			model.addObject("title", "Welcome!");
+			model.setViewName("index");
 			return model;
 
 		}
