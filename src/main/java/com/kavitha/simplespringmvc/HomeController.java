@@ -13,6 +13,5 @@ public class HomeController {
 			model.addObject("title", "Welcome!");
 			model.setViewName("index");
 			return model;
-
 		}
 }
